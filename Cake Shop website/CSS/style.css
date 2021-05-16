@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.cont{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.logo{
+    height: 50px;
+}
+.container-fluid{
+    margin:0 auto;
+    text-align: center;
+}
+.menu ul{
+    align-items: center;
+    margin-left: 110px;
+    margin-bottom: 0;
+    padding:10px;
+    padding-bottom: 0;
+}
+.menu ul li{
+    display: inline-flex;
+    padding: 10px;
+    margin-right: 30px;
+    border-radius: 5px;
+    
+}
+.menu ul li a{
+    color:crimson;
+    font-size: 20px;
+    
+}
+.menu ul li:hover{
+    border: none;
+    background-color: pink;
+    color: white;
+    transition: 0.6s;
+    border-radius: 5px;
+}
+.menu ul li a:hover{
+    cursor:default;
+}
+.cover{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 100%;
+    padding: 1%;
+
+    margin: 0 auto;
+}
+.prod{
+    margin: 50px auto;
+   
+    padding: 1%;
+    width: auto;
+    height: 200px;
+    opacity: 0.9;
+}
+.prod:hover{
+    opacity: 0.7;
+    transition: 0.7s;
+    padding: 0px;
+}
+.cover1{
+    width: 80%;
+    height: 200px;
+    margin: 1%;
+    align-items: center;
+}
+.footer{
+    margin: 1%;
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width:1200px){
+    .prod{
+        width: 90%;
+        height: 200px;
+    }
+
+}
+@media screen and (max-width:990px){
+    .cover{
+        width: 100%;
+        height: 350px;
+    }
+    .container{
+        width: 80%;
+    }
+    .prod{
+       margin: 0 auto;
+       width: 80%;
+       display: flex;
+   }
+   .cover1{
+       width: 100%;
+       height: 400px;
+   }
+
+}
+@media screen and (max-width:770px){
+    .menu{
+        width: 80%;
+        height: 250px;
+        background-color: black;
+        text-align: center;
+        border-radius: 5px;
+        margin-left: 200px;
+    }
+    .menu ul li{
+        display: block;
+        border: 1px solid black;
+        margin: 1% auto;
+        text-align: center;
+        width: 50%;
+        align-items:right;
+    }
+
+    .menu ul li a{
+        color: white;
+    }
+    .menu ul li:hover{
+        background-color: gray;
+        transition:ease-out 2s;
+    }
+    
+}
